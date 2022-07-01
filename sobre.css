@@ -1,0 +1,119 @@
+:root {
+    --lavender: #4e3165;
+    --purple: #722c5c;
+    --red600: #ce1f45;
+    --white: #ffffff;
+    --shadow: #e7e7e7;
+}
+
+header ul{ /* Navbar início*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    box-shadow: 0px 8px 20px #1f1f1f62;
+}
+header a{
+    display: flex;
+}
+header h1{
+    font-size: 1.7rem;
+    color: #ce1f45;
+    margin: 0;
+    margin-left: 10px;
+}
+header h2{
+    font-size: 1rem;
+    color: #4e3165;
+    margin: 0;
+    margin-left: 10px;
+}
+.navbar-nav a{
+    color: #4e3165;
+    margin-right: 30px;
+}
+.navbar-nav a.ativo{
+    color: #ce1f45;
+}
+.navbar-nav a:hover{
+    color: var(--red600);
+} 
+section#titulohome{
+    background: url(assets/background.2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+}
+.titulohome{
+    color: white;
+    text-align: center;
+    margin-top: 40vh;
+    font-size: 2.3rem;
+} /* Navbar fim*/
+
+main h1{
+    color: #4e3165;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 1.9rem;
+    padding-bottom: 0px;
+}
+main p{
+    color: #4e3165;
+    font-size: 1.3rem;
+}
+.col-12{
+    padding: 20px;
+}
+.ddi{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4e3165;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 380px;
+    height: 15rem;
+}
+
+/* Carrosel*/
+li h1{
+    font-size: 2rem;
+    color: #ce1f45;
+}
+li h3{
+    font-size: 1.1rem;
+    color: #4e3165;
+}
+li p{
+    margin-top: 12px;
+}
+i{
+    font-size: 1.8em;
+}
+.gh{
+    color: black;    
+    margin-right: 5px;
+}
+.ul-carousel{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+li.l-img{
+    display: flex;
+    background-color: #4e3165;
+    border-radius: 5px;
+    width: 40rem;
+    max-width: 230px;
+    height: 15rem;
+}
+li.l-divisor{
+    margin: 30px 20px 50px 20px;
+    display: flex;
+    background-color: #4e3165;
+    width: 0.5rem;
+    height: 11rem;
+    border-radius: 5px;
+}
+/*Fim carrossel*/

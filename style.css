@@ -1,0 +1,98 @@
+:root {
+    --lavender: #4e3165;
+    --purple: #722c5c;
+    --red600: #ce1f45;
+    --white: #ffffff;
+    --shadow: #e7e7e7;
+}
+
+header ul{ /* Navbar início*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    box-shadow: 0px 8px 20px #1f1f1f;
+}
+header a{
+    display: flex;
+}
+header h1{
+    font-size: 1.7rem;
+    color: #ce1f45;
+    margin: 0;
+    margin-left: 10px;
+}
+header h2{
+    font-size: 1rem;
+    color: #4e3165;
+    margin: 0;
+    margin-left: 10px;
+}
+.navbar-nav a{
+    color: #4e3165;
+    margin-right: 30px;
+}
+.navbar-nav a.ativo{
+    color: #ce1f45;
+}
+.navbar-nav a:hover{
+    color: var(--red600);
+} 
+section#titulohome{
+    background: url(assets/background.2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+}
+.titulohome{
+    color: white;
+    text-align: center;
+    margin-top: 40vh;
+    font-size: 2.3rem;
+} /* Navbar fim*/
+
+#body{
+    background-color: #4e3165;
+}
+main h1{
+    color: white;
+    text-align: center;
+    margin: 50px 10px 40px 10px;
+}
+.card-body{
+    background-color: #722c5c;
+}
+.card{
+    text-align: center;
+    color: white;
+}
+#cartao{
+    margin-bottom: 15px;
+    --bs-card-border-width: 0px;
+}
+#sm{
+    background-color: #ce1f45;
+    border: #ce1f45;
+    color: white;
+    width: 180px;
+    margin-bottom: 15px;
+}
+.card-body h5{
+    margin-bottom: 120px;
+    font-size: 1.6rem;
+}
+.card-body h6{
+    font-size: 1.1rem;
+}
+.card-body .btn{
+    color: #4e3165;
+    background-color: white;
+    border: 0px;
+    margin: 5px 0px 15px 0px;
+}
+.card-body .btn:hover{
+    color: #4e3165;
+    background-color: white;
+    border: 0px;
+}
